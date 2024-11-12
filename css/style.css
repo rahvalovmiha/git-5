@@ -1,0 +1,49 @@
+ul,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* header{} */
+
+.container {
+    max-width: 1487px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* .header__container{} */
+
+/* .silka__logo{} */
+
+.logo {
+    width: 160px;
+    height: 41px;
+}
+
+.header__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* .header__item{} */
+
+.item__silka {
+    color: rgb(31, 21, 52);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    opacity: 0.5;
+}
+
+.active{
+    font-weight: 700;
+    opacity: 1;
+}
