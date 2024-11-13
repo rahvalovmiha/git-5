@@ -8,14 +8,14 @@ a {
 
 .container {
     max-width: 1487px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin: 0 auto;
     padding: 0 16px;
 }
 
-.header__container{
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 80px;
 }
 
@@ -52,13 +52,16 @@ a {
 
 /* header */
 
-.hero__contaiiner{
+.hero__contaiiner {
     display: flex;
     align-items: center;
+    margin: 0 auto;
+    margin-bottom: 113px;
 }
 
 .hero__info {
     max-width: 445px;
+    margin-right: 119px;
 }
 
 .hero__title {
@@ -105,9 +108,109 @@ a {
     padding: 0 40px;
 }
 
-.hero__photo{
+.hero__photo {
     width: 693px;
     height: 598px;
 }
 
 /* hero */
+
+/* .servise__container{} */
+
+.servise__info {
+    max-width: 952px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 80px;
+}
+
+.servise__title {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 26px;
+}
+
+.servise__layn {
+    width: 56px;
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+.servise__text {
+    color: rgb(125, 121, 135);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 33px;
+}
+
+.servise__list {
+    max-width: 1220px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 69px;
+}
+
+.servise__item {
+    max-width: 350px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    background: rgb(255, 255, 255);
+}
+
+.box-1 {
+    max-width: 266px;
+    padding: 54px 45px 46px 37px;
+}
+
+.item__photo {
+    width: 92px;
+    height: 90px;
+}
+
+.item__title {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 0;
+    padding: 0;
+}
+
+.item__text {
+    color: rgb(125, 121, 135);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.servise__btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.servise__btn__text {
+    color: rgb(69, 143, 246);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 51px;
+}
