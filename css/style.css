@@ -296,7 +296,7 @@ a {
     margin-bottom: 40px;
 }
 
-.bef::after{
+.bef::after {
     width: 15px;
     height: 15px;
     display: block;
@@ -307,7 +307,116 @@ a {
     background-size: cover;
 }
 
-.dowland__photo{
+.dowland__photo {
     width: 665px;
     height: 434px;
+}
+
+/* dowland */
+
+/* .human__container{} */
+
+.human {
+    max-width: 1120px;
+    border-radius: 24px;
+    background: linear-gradient(222.85deg, rgb(103, 195, 243) 10.315%, rgb(90, 152, 242) 75.633%);
+    margin: 0 auto;
+    padding: 64px 118px 84px 118px;
+}
+
+.human__title {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+.human__layn {
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    width: 56px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.human__box-1 {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.human__box-2 {
+    max-width: 184px;
+    margin-right: 110px;
+}
+
+.edvard__photo {
+    width: 141px;
+    height: 141px;
+    border-radius: 50%;
+    margin-right: 29px;
+}
+
+.edvard__title {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.edvard__text {
+    color: rgba(255, 255, 255, 0.85);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.box-2__text {
+    max-width: 420px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.human__list {
+    display: flex;
+    align-items: center;
+    gap: 18px; 
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.item__btn {
+    width: 10;
+    height: 10px;
+    border: transparent;
+    background: rgb(91, 155, 243);
+    opacity: 0.3;
+    border-radius: 50%;
+}
+
+.human__btn{
+    border: transparent;
+    background: transparent;
+}
+
+.left{
+    margin-right: 92px;
+}
+.human__btn{
+    margin-left: 92px;
 }
